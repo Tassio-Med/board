@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import styles from './styles.module.scss';
+import SignInButton from '../SignInButton';
 import { FaThList } from 'react-icons/fa';
 
 export default function Header() {
@@ -18,9 +19,7 @@ export default function Header() {
             <a>Meu board</a>
           </Link>
         </nav>
-        <button>
-          Entrar com github
-        </button>
+        <SignInButton/>
       </div>
     </header>
   )
